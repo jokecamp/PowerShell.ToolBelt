@@ -6,7 +6,7 @@
 
 
     Example usage:
-        Get-Latest-TeamCity-Build "http://dc-devutil01/ "bt30" | Write-Output 
+        Get-Latest-TeamCity-Build "http://teamcityserver/ "bt30" | Write-Output 
 
 #>
 Function Get-Latest-TeamCity-Build([string]$teamCityBaseUrl, [string]$projectId) {
@@ -23,5 +23,3 @@ Function Get-Latest-TeamCity-Build([string]$teamCityBaseUrl, [string]$projectId)
         "Url" = $url
         }
 }
-
-Get-Latest-TeamCity-Build "http://dc-devutil01/" "bt30" | Write-Output 
