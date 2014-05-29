@@ -1,4 +1,4 @@
-﻿$servers = 'dc-npdtfe01', 'dc-npdtfe02'
+﻿$servers = 'server1', 'server2'
 
 foreach ($server in $servers) {
     Write-Host $server
